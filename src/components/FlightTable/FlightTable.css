@@ -1,0 +1,118 @@
+.table-flight {
+  color: #0b2343;
+}
+
+.table-flight table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.table-flight th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  height: 130px;
+}
+
+.table-flight td label{
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.table-flight td p{
+  line-height: 1;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.table-header td{
+  height: 60px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.main-label {
+  font-weight: 500;
+}
+
+.main-p {
+  display:none;
+}
+
+.ARRIVED {
+  color: #26C02A;
+  font-weight: 500;
+}
+
+.CANCEL, .CANCELED {
+  color: red;
+  font-weight: 500;
+}
+
+.ON_TIME, .FLOWN {
+  font-weight: 500;
+}
+
+.flight-number {
+  width: 17%;
+}
+
+.flight-status {
+  width: 15%;
+}
+
+.flight-origin {
+  width: 10%;
+}
+
+.flight-destination {
+  width: 10%
+}
+
+@media screen and (max-width: 1100px ) {
+  table#flightTable td:nth-child(5) {
+   display: none;
+  }
+  
+  .flight-number {
+    width: 22%;
+  }
+
+  .flight-status {
+    width: 17%;
+  }
+
+  .flight-origin {
+    width: 13%;
+  }
+
+  .flight-start {
+    width: 15%;
+  }
+
+  .flight-end {
+    width: 15%;
+  }
+
+  .table-flight td label {
+    font-size: 16px;
+  }
+
+  .table-flight td p {
+    font-size: 11px;
+    margin-top: 1px;
+  }
+}
+
+@media screen and (max-width: 750px ) {
+   table#flightTable td:nth-child(4), table#flightTable td:nth-child(6) {
+   display: none;
+  }
+
+  .main-p {
+    display:block;
+  }
+}

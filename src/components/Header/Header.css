@@ -1,0 +1,75 @@
+.header {
+  overflow: hidden;
+  background-color: #0b2343 ;
+  padding: 0px 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-right a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 18px 5px 22px 10px;;
+  text-decoration: none;
+  font-size: 13px; 
+}
+
+.header-left a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 18px 5px 10px 10px;
+  text-decoration: none;
+  font-size: 16px; 
+}
+
+.divide{
+  border-left: 1px solid white;
+}
+
+.header-left-logo a{
+  float: left;
+  text-align: center;
+  padding: 5px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 40px;
+  width: 200px;
+}
+
+.flag {
+    border-radius: 50%;
+    display: block;
+    height: 20px;
+    width: 20px;
+}
+
+.mail-icon {
+  width: 20px;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 1200px ) {
+  .body-search {
+    padding-left: 46px;
+  }
+}
+
+@media screen and (max-width: 1130px ) {
+  .header {
+    width: 1180px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+ 
+}
+
